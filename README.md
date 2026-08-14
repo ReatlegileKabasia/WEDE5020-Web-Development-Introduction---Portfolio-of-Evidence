@@ -3,7 +3,6 @@
 ## Student & Institutional Information
 * **Student Full Name:** Reatlegile Kabasia
 * **Module Code:** WEDE5020
-* **Qualification:** Higher Certificate / Degree in Information Technology (Software Development)
 * **Institution:** The IIE Rosebank College (Pretoria Campus)
 * **Academic Year:** 2026
 
@@ -25,7 +24,7 @@ This web application automates customer inquiries, showcases the 10-item core pr
 
 ---
 
-## Version Control Changelog (Part 1 Release)
+## Version Control Changelog (Part 1)
 * **v1.0.0 (August 2026):**
   * Created project folder layout (`css/`, `js/`, `images/products/`).
   * Structured 5 core web pages using HTML5 standard layout tags (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`).
