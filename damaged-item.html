@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Report a broken or leaking bottle to Fancy Fragrances for a quick refund or replacement within 24-48 hours.">
+    <title>Fancy Fragrances | Broken or Damaged Bottle Help</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Fancy Fragrances Logo" width="180"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop (10 Items)</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="report-damage.html" class="active">Damaged Bottle Help</a></li>
+                <li><a href="contact.html">Contact & Markets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-header">
+            <h1>Broken or Damaged Bottle Help</h1>
+            <p>We take extra care in packing, but if your item arrived damaged during transit, let us know below. We process replacements within 24–48 hours!</p>
+        </section>
+
+        <!-- Interactive Damaged Item Claim Form -->
+        <section class="form-container">
+            <form action="#" method="POST" enctype="multipart/form-data" class="damage-form">
+                
+                <!-- Field 1: Customer Name & Contact Details -->
+                <div class="form-group">
+                    <label for="customerName">Customer Name & Contact Details *</label>
+                    <input type="text" id="customerName" name="customerName" placeholder="e.g. Jane Doe (082 123 4567)" required>
+                </div>
+
+                <!-- Field 2: Order Number or Date -->
+                <div class="form-group">
+                    <label for="orderInfo">Order Number or Date *</label>
+                    <input type="text" id="orderInfo" name="orderInfo" placeholder="e.g. #FF-1042 or 12 August 2026" required>
+                </div>
+
+                <!-- Field 3: Description of Damage Dropdown -->
+                <div class="form-group">
+                    <label for="damageType">Description of Damage *</label>
+                    <select id="damageType" name="damageType" required>
+                        <option value="" disabled selected>Select issue type...</option>
+                        <option value="broken-bottle">Broken Glass Bottle</option>
+                        <option value="leaking-spray">Leaking Container / Spray Nozzle</option>
+                        <option value="wrong-item">Received Wrong Item</option>
+                        <option value="other">Other Damage</option>
+                    </select>
+                </div>
+
+                <!-- Field 4: Photo Upload Area -->
+                <div class="form-group">
+                    <label for="photoUpload">Photo Upload (Proof of Damage) *</label>
+                    <div class="upload-box">
+                        <input type="file" id="photoUpload" name="photoUpload" accept="image/*" required>
+                        <p>Click or tap to upload a clear photo of the damaged item</p>
+                    </div>
+                </div>
+
+                <!-- Additional Notes -->
+                <div class="form-group">
+                    <label for="notes">Additional Comments (Optional)</label>
+                    <textarea id="notes" name="notes" rows="4" placeholder="Provide any extra details about the package condition..."></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-group">
+                    <button type="submit" class="btn-submit">SUBMIT REPORT</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fancy Fragrances. Fast claims & friendly customer support.</p>
+    </footer>
+
+</body>
+</html>
