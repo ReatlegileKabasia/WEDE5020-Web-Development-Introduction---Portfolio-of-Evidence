@@ -1,0 +1,10 @@
+# References
+
+The following resources were consulted for the Part 2 development work. Accessed 17 September 2026.
+
+- Mozilla Developer Network. (2025). *CSS media queries*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries
+- Mozilla Developer Network. (2025). *Using the Fetch? and Web Storage APIs*. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+- Mozilla Developer Network. (2025). *HTML forms guide*. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms
+- W3C Web Accessibility Initiative. (2024). *Web Content Accessibility Guidelines (WCAG) overview*. Available at: https://www.w3.org/WAI/standards-guidelines/wcag/
+
+Images used in the website are the supplied local project assets in the `pics` folder.
