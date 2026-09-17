@@ -5,21 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Report a broken or leaking bottle to Fancy Fragrances for a quick refund or replacement within 24-48 hours.">
     <title>Fancy Fragrances | Broken or Damaged Bottle Help</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+
+
 </head>
 <body>
 
     <header>
         <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="Fancy Fragrances Logo" width="180"></a>
+            <a href="home.html">
+                <img src="pics/logo words.jpeg" alt="Fancy Fragrances Logo" class="logo-image">
+            </a>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="shop.html">Shop (10 Items)</a></li>
                 <li><a href="about.html">Our Story</a></li>
-                <li><a href="report-damage.html" class="active">Damaged Bottle Help</a></li>
+                <li><a href="damaged-item.html" class="active">Damaged Bottle Help</a></li>
                 <li><a href="contact.html">Contact & Markets</a></li>
+                <li><a href="shop.html" class="cart-link" aria-label="Shopping cart" title="Shopping cart"><span class="cart-icon" aria-hidden="true">&#128722;</span><span class="cart-count">0</span></a></li>
             </ul>
         </nav>
     </header>
@@ -37,7 +42,7 @@
                 <!-- Field 1: Customer Name & Contact Details -->
                 <div class="form-group">
                     <label for="customerName">Customer Name & Contact Details *</label>
-                    <input type="text" id="customerName" name="customerName" placeholder="e.g. Jane Doe (082 123 4567)" required>
+                    <input type="text" id="customerName" name="customerName" placeholder="e.g. Jane Doe (078 563 7630)" required>
                 </div>
 
                 <!-- Field 2: Order Number or Date -->
@@ -73,14 +78,18 @@
                     <textarea id="notes" name="notes" rows="4" placeholder="Provide any extra details about the package condition..."></textarea>
                 </div>
 
+
+
                 <!-- Submit Button -->
                 <div class="form-group">
                     <button type="submit" class="btn-submit">SUBMIT REPORT</button>
                 </div>
 
+                
             </form>
         </section>
     </main>
+
 
     <footer>
         <p>&copy; 2026 Fancy Fragrances. Fast claims & friendly customer support.</p>
