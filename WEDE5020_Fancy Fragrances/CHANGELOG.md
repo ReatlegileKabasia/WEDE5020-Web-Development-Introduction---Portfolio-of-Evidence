@@ -2,6 +2,7 @@
 
 ## Part 3 - 26 October 2026
 
+- Updated the business phone and WhatsApp contact number to 073 187 9819 across the contact links, homepage, markets page, and damaged-item form example.
 - Added `js/site.js` to render the skincare catalogue from a single product data list and support live keyword search, availability filtering, and sorting by name or listed price.
 - Implemented a browser-storage shopping enquiry cart with a live item count, item removal, and a link that pre-populates the contact form with selected products. This is an enquiry aid, not a payment or checkout service.
 - Added an accessible native-dialog lightbox for featured product images on the home and shop pages, including close-button, backdrop, and Escape-key dismissal.
