@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop Fancy Fragrances skincare products. Perfumes will be available soon.">
+    <meta name="keywords" content="South African skincare, skincare products, sunscreen, turmeric glow oil, Fancy Fragrances">
+    <title>Fancy Fragrances | Shop Catalogue</title>
+    <link rel="stylesheet" href="css/home.css">
+
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="home.html">
+                <img src="pics/logo words.jpeg" alt="Fancy Fragrances Logo" class="logo-image">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="damaged-item.html">Damaged Bottle Help</a></li>
+                <li><a href="contact.html">Contact & Markets</a></li>
+                <li><a href="#cartSummary" class="cart-link" aria-label="Shopping cart" title="Shopping cart"><span class="cart-icon" aria-hidden="true">&#128722;</span><span class="cart-count" aria-live="polite">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h1>Skincare Available Now</h1>
+            <p>Shop our new skincare range today. Our perfume collection will be added to the store soon.</p>
+        </section>
+
+        <section class="coming-soon-notice" aria-label="Perfume collection update">
+            <h2>Perfumes Coming Soon</h2>
+            <p>Our perfume collection is being prepared and will be added to the online store soon.</p>
+        </section>
+
+        <section class="catalogue-controls" aria-label="Search and filter products">
+            <label for="productSearch">Search skincare</label>
+            <input type="search" id="productSearch" placeholder="Search by name or benefit">
+            <label for="availabilityFilter">Availability</label>
+            <select id="availabilityFilter">
+                <option value="all">All products</option>
+                <option value="stock">Available online</option>
+                <option value="market">Available at markets</option>
+            </select>
+            <label for="sortProducts">Sort</label>
+            <select id="sortProducts">
+                <option value="featured">Featured</option>
+                <option value="name">Name</option>
+                <option value="price">Price</option>
+            </select>
+        </section>
+        <p id="productResults" class="product-results" aria-live="polite"></p>
+        <section id="productGrid" class="catalogue-grid" aria-label="Skincare products"></section>
+        <p id="noProducts" class="empty-results" hidden>No products match that search. Try another name or benefit.</p>
+
+        <section id="cartSummary" class="cart-summary" aria-labelledby="cartHeading">
+            <h2 id="cartHeading">Your shopping enquiry</h2>
+            <ul id="cartItems" class="cart-items"></ul>
+            <p id="cartStatus" aria-live="polite">Your cart is empty.</p>
+            <a id="cartEnquiry" class="btn-primary" href="contact.html" hidden>Ask about these products</a>
+        </section>
+
+        <dialog id="lightboxDialog" class="lightbox-dialog" aria-label="Product image viewer">
+            <button type="button" class="lightbox-close" data-lightbox-close aria-label="Close image viewer">&times;</button>
+            <figure><img src="" alt=""><figcaption></figcaption></figure>
+        </dialog>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fancy Fragrances. All Rights Reserved.</p>
+    </footer>
+    <script src="js/site.js" defer></script>
+
+</body>
+</html>

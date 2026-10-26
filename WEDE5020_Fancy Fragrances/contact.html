@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Fancy Fragrances via WhatsApp, phone, email, or visit our next market stall in Gauteng.">
+    <meta name="keywords" content="Fancy Fragrances contact, Gauteng skincare market, South African fragrance business, customer enquiry">
+    <title>Fancy Fragrances | Contact Us & Market Locations</title>
+    <link rel="stylesheet" href="css/home.css">
+
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="home.html">
+                <img src="pics/logo words.jpeg" alt="Fancy Fragrances Logo" class="logo-image">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="damaged-item.html">Damaged Bottle Help</a></li>
+                <li><a href="contact.html" class="active">Contact & Markets</a></li>
+                <li><a href="shop.html" class="cart-link" aria-label="Shopping cart" title="Shopping cart"><span class="cart-icon" aria-hidden="true">&#128722;</span><span class="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <h1>Get in Touch & Find Our Stall</h1>
+            <p>Have a question or want to sample scents in person? Reach out or visit our market booth!</p>
+        </section>
+
+        <!-- Quick Contact Actions -->
+        <section class="quick-buttons">
+            <a href="https://wa.me/27785637630" class="btn-whatsapp" target="_blank" rel="noopener">Chat on WhatsApp</a>
+            <a href="tel:+27785637630" class="btn-call">Click to Call Us</a>
+        </section>
+
+        <!-- General Email Contact Form -->
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <form name="contact-enquiry" method="POST" action="contact.html?submitted=contact" data-netlify="true" netlify-honeypot="bot-field" class="standard-form">
+                <input type="hidden" name="form-name" value="contact-enquiry">
+                <p class="visually-hidden"><label>Leave this field empty <input name="bot-field"></label></p>
+                <div class="form-group">
+                    <label for="fullName">Your Full Name</label>
+                    <input type="text" id="fullName" name="fullName" autocomplete="name" minlength="2" maxlength="100" required>
+                </div>
+                <div class="form-group">
+                    <label for="emailAddr">Email Address</label>
+                    <input type="email" id="emailAddr" name="emailAddr" autocomplete="email" maxlength="150" required>
+                </div>
+                <div class="form-group">
+                    <label for="enquiryType">Enquiry type</label>
+                    <select id="enquiryType" name="enquiryType" required>
+                        <option value="" disabled selected>Select an enquiry</option>
+                        <option>Product information</option>
+                        <option>Order support</option>
+                        <option>Market location</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="msgBody">Message / Inquiry</label>
+                    <textarea id="msgBody" name="msgBody" rows="5" minlength="10" maxlength="2000" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+                <p class="form-feedback" data-form-feedback role="status" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section class="faq-section" aria-labelledby="faqHeading">
+            <h2 id="faqHeading">Frequently asked questions</h2>
+            <details><summary>How can I order a product?</summary><p>Add online products to your enquiry from the shop, then send the prefilled message through our contact form.</p></details>
+            <details><summary>Where can I find current market details?</summary><p>Market dates and approximate areas are listed on the <a href="markets.html">markets page</a>. Please confirm the venue before travelling.</p></details>
+            <details><summary>How do I report a damaged order?</summary><p>Use our <a href="damaged-item.html">damaged item report</a> and include a clear photo of the item.</p></details>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fancy Fragrances. Connecting with communities across Gauteng.</p>
+    </footer>
+    <script src="js/site.js" defer></script>
+
+</body>
+</html>
