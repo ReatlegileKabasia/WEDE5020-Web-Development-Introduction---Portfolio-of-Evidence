@@ -6,7 +6,7 @@
             price: 100,
             priceLabel: "R100",
             availability: "stock",
-            image: "pics/WhatsApp Image 2026-09-17 at 10.43.02.jpeg",
+            image: "pics/turmeric-glow-oil.jpeg",
             alt: "Fancy Fragrances turmeric glow oil skincare bottle",
             description: "Nourishes, brightens and supports glowing skin."
         },
@@ -16,7 +16,7 @@
             price: 150,
             priceLabel: "R150",
             availability: "stock",
-            image: "pics/WhatsApp Image 2026-09-17 at 10.43.02 (1).jpeg",
+            image: "pics/spf-50-sunscreen.jpeg",
             alt: "Fancy Fragrances SPF 50 daily sunscreen bottle",
             description: "Lightweight daily UVA and UVB protection."
         },
@@ -26,7 +26,7 @@
             price: null,
             priceLabel: "Available at market",
             availability: "market",
-            image: "pics/WhatsApp Image 2026-09-17 at 10.43.02 (2).jpeg",
+            image: "pics/vitamin-e-hand-lotion.jpeg",
             alt: "Fancy Fragrances Vitamin E hand lotion bottle",
             description: "Helps soften and moisturise dry hands."
         },
@@ -36,7 +36,7 @@
             price: null,
             priceLabel: "Available at market",
             availability: "market",
-            image: "pics/WhatsApp Image 2026-09-17 at 10.43.02 (4).jpeg",
+            image: "pics/vitamin-e-skin-oil.jpeg",
             alt: "Fancy Fragrances Vitamin E skin oil bottle",
             description: "Nourishes, protects and helps hydrate the skin."
         },
@@ -46,7 +46,7 @@
             price: null,
             priceLabel: "Available at market",
             availability: "market",
-            image: "pics/WhatsApp Image 2026-09-17 at 10.43.03.jpeg",
+            image: "pics/retinol-face-serum.jpeg",
             alt: "Fancy Fragrances retinol face serum bottle",
             description: "Supports smoother skin and a more even-looking tone."
         }
