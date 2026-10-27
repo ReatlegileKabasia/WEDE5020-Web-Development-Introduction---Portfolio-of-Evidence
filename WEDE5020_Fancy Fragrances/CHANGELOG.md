@@ -2,6 +2,7 @@
 
 ## Part 3 - 26 October 2026
 
+- Restored the About page logo and founder image references to their descriptive filenames after detecting stale paths.
 - Renamed all supplied image files with descriptive, search-friendly names and updated references in the HTML pages and JavaScript product data.
 - Updated `robots.txt` and `sitemap.xml` to use the Netlify primary site domain, and documented the correct Netlify publish directory for the project subfolder.
 - Updated the business phone and WhatsApp contact number to 073 187 9819 across the contact links, homepage, markets page, and damaged-item form example.
