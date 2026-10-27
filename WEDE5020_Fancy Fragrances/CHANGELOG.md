@@ -2,6 +2,7 @@
 
 ## Part 3 - 26 October 2026
 
+- Updated `robots.txt` and sitemap URLs to the active `fancy-fragrances.netlify.app` domain and clean deployed page routes.
 - Restored the About page logo and founder image references to their descriptive filenames after detecting stale paths.
 - Renamed all supplied image files with descriptive, search-friendly names and updated references in the HTML pages and JavaScript product data.
 - Updated `robots.txt` and `sitemap.xml` to use the Netlify primary site domain, and documented the correct Netlify publish directory for the project subfolder.

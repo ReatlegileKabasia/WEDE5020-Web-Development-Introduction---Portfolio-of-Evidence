@@ -65,6 +65,7 @@ The site files are stored in the `WEDE5020_Fancy Fragrances` subfolder of the Gi
 - Renamed all supplied photos to descriptive filenames and updated every page and product-data reference to match.
 - Updated the business phone and WhatsApp number to 073 187 9819.
 - Corrected the sitemap to use the Netlify primary domain and documented the required `WEDE5020_Fancy Fragrances` Netlify publish directory.
+- Updated `robots.txt` and sitemap URLs to the live `fancy-fragrances.netlify.app` domain and its deployed clean routes.
 - Restored the About page logo and founder image paths to the renamed assets so both images load correctly.
 - Detailed development notes are also recorded in [CHANGELOG.md](CHANGELOG.md).
 
