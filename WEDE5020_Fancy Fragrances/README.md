@@ -47,12 +47,25 @@ The layout has desktop, tablet, and mobile breakpoints. The navigation wraps on 
 - Contact and damaged-item forms use native constraint validation and Netlify Forms markup. The damaged-item form accepts JPEG, PNG, and WebP images up to 5 MB.
 - Forms show local-preview validation feedback. Actual receipt, file storage, and email notifications require deploying on Netlify and configuring form notifications in the Netlify dashboard; no submissions are sent from a local preview.
 - Each HTML page includes a unique title, description, and relevant meta keywords. Images use descriptive alt text and lazy loading where appropriate.
-- `robots.txt` and `sitemap.xml` provide crawler guidance and page discovery. Replace the sitemap domain if the published site uses a different domain.
+- `robots.txt` and `sitemap.xml` provide crawler guidance and page discovery for the Netlify site.
 - `_headers` applies a Content Security Policy and browser security headers when served by Netlify. Confirm the published page and map still load after deployment.
 
 ## Deployment
 
-The site can be deployed as a static site on Netlify by publishing the project root. Netlify Forms are detected at deploy time; after deployment, confirm both form names appear in the Netlify Forms dashboard and configure email notifications. The interactive map requires an internet connection to load Leaflet and OpenStreetMap tiles. GitHub Pages can host the pages, but it does not process the configured Netlify forms. Confirm the displayed social profile URLs and replace the example sitemap domain if either differs from the final live site.
+The site files are stored in the `WEDE5020_Fancy Fragrances` subfolder of the GitHub portfolio repository. In Netlify, leave the base directory and build command blank and set the publish directory to `WEDE5020_Fancy Fragrances`. Netlify Forms are detected at deploy time; after deployment, confirm both form names appear in the Netlify Forms dashboard and configure email notifications. The interactive map requires an internet connection to load Leaflet and OpenStreetMap tiles. GitHub Pages can host the pages, but it does not process the configured Netlify forms. Confirm the displayed social profile URLs match the business accounts.
+
+## Changelog
+
+### Part 3 - 26 October 2026
+
+- Added JavaScript-powered product rendering, search, availability filtering, sorting, a persistent enquiry cart, and an accessible product-image lightbox.
+- Added an interactive Leaflet map with clearly labelled Example Market placeholders and a contact-page FAQ accordion.
+- Improved contact and damaged-item form controls, native validation, local feedback, upload type and size checks, and Netlify Forms integration.
+- Added page-specific SEO titles, descriptions, keywords, descriptive image alt text and filenames, `robots.txt`, `sitemap.xml`, and Netlify security headers and redirects.
+- Renamed all supplied photos to descriptive filenames and updated every page and product-data reference to match.
+- Updated the business phone and WhatsApp number to 073 187 9819.
+- Corrected the sitemap to use the Netlify primary domain and documented the required `WEDE5020_Fancy Fragrances` Netlify publish directory.
+- Detailed development notes are also recorded in [CHANGELOG.md](CHANGELOG.md).
 
 ## Credits
 

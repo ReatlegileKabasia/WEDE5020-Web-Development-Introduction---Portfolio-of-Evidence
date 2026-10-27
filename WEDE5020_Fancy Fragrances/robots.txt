@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.fancyfragrances.co.za/sitemap.xml
+Sitemap: https://endearing-cannoli-12e039.netlify.app/sitemap.xml
