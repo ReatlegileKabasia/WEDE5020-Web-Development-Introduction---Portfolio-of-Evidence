@@ -46,9 +46,20 @@ The layout has desktop, tablet, and mobile breakpoints. The navigation wraps on 
 - The markets page includes an interactive Leaflet map with sample Example Market markers in Gauteng. Replace the example listings and coordinates with confirmed event details before publishing.
 - Contact and damaged-item forms use native constraint validation and Netlify Forms markup. The damaged-item form accepts JPEG, PNG, and WebP images up to 5 MB.
 - Forms show local-preview validation feedback. Actual receipt, file storage, and email notifications require deploying on Netlify and configuring form notifications in the Netlify dashboard; no submissions are sent from a local preview.
-- Each HTML page includes a unique title, description, and relevant meta keywords. Images use descriptive alt text and lazy loading where appropriate.
+- Each HTML page includes a unique title and description, a canonical URL, and social-sharing metadata. The homepage includes structured organization data; images use descriptive alt text and lazy loading where appropriate.
 - `robots.txt` and `sitemap.xml` provide crawler guidance and page discovery for the Netlify site.
 - `_headers` applies a Content Security Policy and browser security headers when served by Netlify. Confirm the published page and map still load after deployment.
+
+### Search indexing checklist
+
+After deploying the site:
+
+1. Add and verify `https://fancy-fragrances.netlify.app/` as a property in [Google Search Console](https://search.google.com/search-console/).
+2. Submit `https://fancy-fragrances.netlify.app/sitemap.xml` in Search Console and inspect the homepage URL to check whether Google can crawl and index it.
+3. Use Search Console's URL Inspection tool to request indexing for the homepage and important pages after confirming they return successfully.
+4. Keep the business name, phone number, website, and social profiles consistent wherever the business is listed. Publish genuine business updates and ask real customers for reviews on appropriate platforms.
+
+Submitting a sitemap or requesting indexing does not guarantee inclusion or a specific position. Search rankings, including a top-three result for the brand name, are controlled by search engines and depend on factors such as indexing, competing results, and the site's reputation over time.
 
 ## Deployment
 
